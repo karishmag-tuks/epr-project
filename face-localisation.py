@@ -16,7 +16,7 @@ except OSError:
     print('Error: Creating directory of data')
 
 currentframe = 0
-while currentframe < 10:
+while currentframe > 0:
     # reading from frame
     ret, frame = capture.read()
 
