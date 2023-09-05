@@ -11,10 +11,15 @@ warnings.filterwarnings("error")
 # img = cv2.imread('data/small-joseph.png', cv2.IMREAD_COLOR)
 # img2 = cv2.imread("small-joseph.png", cv2.IMREAD_GRAYSCALE)
 capture = cv2.VideoCapture(0)
+# capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+# capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 ret, img = capture.read()
 
+
+
 cv2.imshow('original ', img)
-binarised_array = np.array(img)
+
+
 
 def convert_to_grayscale():
     grayscale_img = np.zeros((img.shape[0], img.shape[1]), dtype="uint8")
@@ -33,7 +38,6 @@ def find_distribution(find_array_dist):
     return find_array_dist.flatten().std(), find_array_dist.flatten().mean()
     # plt.show()
 
-
 def find_face_global_thresholding(image_input, std, mean):
     bounded_image = np.zeros((img.shape[0], img.shape[1]), dtype="uint8")
     for i in range(0, img.shape[0]):
@@ -45,7 +49,7 @@ def find_face_global_thresholding(image_input, std, mean):
 
     return bounded_image
 
-def find_face_local_mean_thresholding(image, neighbours, constant):
+def find_face_local_mean_thresholding(image, neighbours, constant1):
     bounded_image = np.zeros((img.shape[0], img.shape[1]), dtype="uint8")
     n = int(neighbours/2)
 
@@ -53,11 +57,11 @@ def find_face_local_mean_thresholding(image, neighbours, constant):
         for j in range(0, img.shape[1]):
             store = image[ max(i-n,0):min(i+n,img.shape[0]) +1 ,max(j-n,0):min(j+n,img.shape[1])+1 ].flatten()
             pixel = np.rint(np.sum(store)/store.shape[0])
-            bounded_image[i][j] = 255 if (pixel > constant) else 0
+            bounded_image[i][j] = 255 if (pixel > constant1 ) else 0
 
     return bounded_image
 
-binarised_image = find_face_local_mean_thresholding(image, 6, 200)
+binarised_image = find_face_local_mean_thresholding(image, 6, 160)
 cv2.imshow('image', binarised_image)
 
 def label_connected_components(image):
@@ -111,6 +115,8 @@ def extract_bounding_boxes(labeled_image):
                     bounding_boxes[label]['max_x'] = max(bounding_boxes[label]['max_x'], x)
                     bounding_boxes[label]['min_y'] = min(bounding_boxes[label]['min_y'], y)
                     bounding_boxes[label]['max_y'] = max(bounding_boxes[label]['max_y'], y)
+    
+
 
     return bounding_boxes
 
@@ -118,13 +124,13 @@ def extract_bounding_boxes(labeled_image):
 bounding_boxes = extract_bounding_boxes(labeled_image)
 
 # Crop and save each element
-for label, box in bounding_boxes.items():
-    element = img[box['min_y']:box['max_y']+1, box['min_x']:box['max_x']+1]
-    element_image = Image.fromarray(element)
-    element_image.save(f'element_{label}.png')
+# for label, box in bounding_boxes.items():
+#     element = img[box['min_y']:box['max_y']+1, box['min_x']:box['max_x']+1]
+#     element_image = Image.fromarray(element)
+#     element_image.save(f'element_{label}.png')
 
-print("Elements cropped and saved.")
+# print("Elements cropped and saved.")
 
-# cv.imwrite('mean_adaptive.jpg',mean_adaptive)
+cv.imwrite('mean_adaptive.jpg',mean_adaptive)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
