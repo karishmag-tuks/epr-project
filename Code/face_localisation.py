@@ -7,12 +7,7 @@ import warnings
 from PIL import Image
 warnings.filterwarnings("error")
 
-
-# img = cv2.imread('data/small-joseph.png', cv2.IMREAD_COLOR)
-# img2 = cv2.imread("small-joseph.png", cv2.IMREAD_GRAYSCALE)
 capture = cv2.VideoCapture(0)
-# capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-# capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 ret, img = capture.read()
 
 
@@ -70,7 +65,7 @@ def label_connected_components(image):
 
     for y in range(image.shape[0]):
         for x in range(image.shape[1]):
-            if image[y, x] == 255 and labeled_image[y, x] == 0:
+            if image[y, x] == 0 and labeled_image[y, x] == 0:
                 stack = [(y, x)]
 
                 while stack:
@@ -85,7 +80,7 @@ def label_connected_components(image):
                         if (
                             0 <= ny < image.shape[0] and
                             0 <= nx < image.shape[1] and
-                            image[ny, nx] == 255 and
+                            image[ny, nx] == 0 and
                             labeled_image[ny, nx] == 0
                         ):
                             stack.append((ny, nx))
@@ -124,13 +119,13 @@ def extract_bounding_boxes(labeled_image):
 bounding_boxes = extract_bounding_boxes(labeled_image)
 
 # Crop and save each element
-# for label, box in bounding_boxes.items():
-#     element = img[box['min_y']:box['max_y']+1, box['min_x']:box['max_x']+1]
-#     element_image = Image.fromarray(element)
-#     element_image.save(f'element_{label}.png')
+for label, box in bounding_boxes.items():
+    element = img[box['min_y']:box['max_y']+1, box['min_x']:box['max_x']+1]
+    element_image = Image.fromarray(element)
+    element_image.save(f'element_{label}.png')
 
 # print("Elements cropped and saved.")
 
-cv.imwrite('mean_adaptive.jpg',mean_adaptive)
+# cv.imwrite('mean_adaptive.jpg',mean_adaptive)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
