@@ -12,11 +12,10 @@ while(True):
         eyes = face[100:200,:]
         cv2.imshow("eyes", eyes)
         cv2.imshow("left eye", eyes[:,:150])
-        cv2.imshow("right eye", eyes[:150:])
+        cv2.imshow("right eye", eyes[:,150:])
         # cv2.imshow("right eye", face[:150,160:] )
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 capture_video.release()
-demo.release()
 cv2.destroyAllWindows()
