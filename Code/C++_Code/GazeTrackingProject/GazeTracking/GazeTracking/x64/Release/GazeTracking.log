@@ -1,0 +1,6 @@
+﻿  main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 68 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GazeTracking.vcxproj -> C:\Users\user\Documents\EPR 402\Project\epr-project\Code\C++_Code\GazeTrackingProject\GazeTracking\x64\Release\GazeTracking.exe

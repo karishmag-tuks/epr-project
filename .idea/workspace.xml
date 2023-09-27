@@ -1,14 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf51e860-f0ce-49ef-86d1-ad049eee8936" name="Changes" comment="added all modules and got blink detection">
-      <change afterPath="$PROJECT_DIR$/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joseph.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin_detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-joseph.png" afterDir="false" />
+    <list default="true" id="cf51e860-f0ce-49ef-86d1-ad049eee8936" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/VideoProcessing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/VideoProcessing/VideoProcessing.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/VideoProcessing/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QCoreApplication.A813C94A2BED75FA.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/__stddef_max_align_t.h.397B3F9B755F34A5.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw.h.9063BC30453243F3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_ddk.h.570FD4D1B2D32B52.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_mac.h.080D111F344D4537.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_off_t.h.53E87FB5C0C92D32.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_secapi.h.26DB93C57E58A36E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_stat64.h.0CD59C248F52BD72.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_timeval.h.6D8772AD9AE270D6.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/algorithm.B63A1AB804A0418E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/algorithmfwd.h.B818E34A708CBED6.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/align.h.4C4EF99306C09C24.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/aligned_buffer.h.91DE6B7F31D201E0.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/alloc_traits.h.1FD3C3694528EE54.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/alloc_traits.h.E9BA17BEE07A2BAA.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/allocated_ptr.h.95627CC6742827C3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/allocator.h.93BF9A1F82F6688C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/array.25E9866757CEF9AF.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/assert.h.849CBFAA20ACB2EF.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/assertions.h.538DFC7564A8C64A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic.3D5D6F43342AFCB2.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_base.h.9E887311C28BEF8A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_lockfree_defines.h.6B04184F5D993264.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_word.h.862F6C953145A517.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomicity.h.42C1A32322C8EB2F.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/auto_ptr.h.1589B15250F603E2.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_string.h.3EA6F3E3C03CF711.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_string.tcc.4EF75573B7A58625.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bessel_function.tcc.F4D1EEEA8259DA3B.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/beta_function.tcc.5B375847E4658250.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/binders.h.B49A7B8E474AC3F5.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bit.FA145B867C105A18.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++allocator.h.7BC47500EE33DF83.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++config.h.B085AC53D731EE26.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++locale.h.33CE091015F064AE.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cctype.C3800EC1562A5645.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cerrno.8115E69FEB2597E4.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/char_traits.h.B438352A03EE1153.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/charconv.h.1ACAF5CE5EA79A5A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/chrono.AB49B1B7797201CB.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/clocale.48D2F5BD9B538AAE.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cmath.A0A08F382EA62983.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/concept_check.h.412FA04EC187BA84.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/concurrence.h.2E032C229A38C6E1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt.h.CF79803002814E3C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_startup.h.8C9FE57DD784911C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_stdio_config.h.8E05F7291AC6AE26.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_wstdlib.h.2AFF082516D86A01.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cpp_type_traits.h.18CE80C3AA2F2928.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cpu_defines.h.17425A30C8B0664B.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/crtdefs.h.51BBD55D5C4996FB.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstddef.6685BE0C46EA418C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdint.6545973F0DAAC1CC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdio.B7ED95DE322D94D3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdlib.77936E530E4CBA75.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstring.E6FEDAD33AD83F79.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctime.3B2F9094CD80A030.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctype.h.611A3F47BDEB2D65.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cwchar.27013598EC683F3C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cxxabi_forced.h.E77F2604EB0DAA11.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cxxabi_init_exception.h.6F553FB2B0A16EB0.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/debug.h.3B94537C772B05E1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ell_integral.tcc.50F5CBA6850ED7C6.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/enable_special_members.h.0EE7AEAFFAA54AB8.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/erase_if.h.5ED97EE9FDED5F46.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/errno.h.9CB9214B6A17A893.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/error_constants.h.3FDD171936ECCFC3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception.6CCD2F6D147520EB.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception.h.6347ADACB335B5B2.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception_defines.h.6FAB1758E9C4F6FC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception_ptr.h.3542983D810679A8.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/execution_defs.h.C022BE8934A12FEF.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exp_integral.tcc.60FCA382E9E1B598.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functexcept.h.17A8E88336176AA3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functional.54F2E4FEBE22653C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functional_hash.h.C1C97364870BE6F2.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gamma.tcc.EC07CEE7A1297F11.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_algorithm_defs.h.2782462FE805E0DE.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_memory_defs.h.70C303086177FE43.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_numeric_defs.h.5DCAFA9C87700946.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gthr-default.h.B70A0C3097F7041C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gthr.h.918C1160108EB1DA.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hash_bytes.h.044334B0B76180BD.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hashtable.h.2122BA1A87DDCE40.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hashtable_policy.h.721E14586A5D8388.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hypergeometric.tcc.EEF1326F1BE89202.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/initializer_list.5F11F1A8B9365F6E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/invoke.h.DB988924DCB1B33E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ios_base.h.5D8E18D464E980AD.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iosfwd.A6CAEB762BA80B81.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iterator.5E36C4D27739EA8A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/legendre_function.tcc.7F022B20841CA149.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.ED72BFAE94F0CAA1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.h.38647169D52F47DF.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.h.71A44ACD6691E514.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/list.9F7075085305CCB5.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/list.tcc.F065556DD02680CA.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale.h.A50B231BCE4CBACB.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_classes.h.94E0B5A3D9E31223.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_classes.tcc.14A953226B5DAF1F.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/localefwd.h.D670E8AF8022AE56.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/main.cpp.A0AE2D17DEC3F24E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/malloc.h.FCB1E249A822903C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/map.8700A04635D17E47.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/math.h.D3FDF466545391C1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memory.64A021376A3B0C13.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memoryfwd.h.F7C4CE916424A343.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/mm_malloc.h.DBCF882E257DA77F.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/modified_bessel_func.tcc.BBD76B1C161D6214.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/move.h.8A42797221F44408.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/nested_exception.h.04645FA1191819F2.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/new.A8D5623A48B0AEF0.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/new_allocator.h.03D78830EF7AA0B0.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/node_handle.h.745CD093144EBD43.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/numeric.D1D20A2639EF01AE.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/numeric_traits.h.26AEAFDBE52E59FB.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/optional.38EBC242B4B3B6A4.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/os_defines.h.231BACF2B6B32144.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ostream_insert.h.8C311B0603DA2182.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/parse_numbers.h.FE137A42D4C9EF4B.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/poly_hermite.tcc.754C21845C92A640.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/poly_laguerre.tcc.A7C7C079797F3D4A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/postypes.h.14EE9B3E8530EE71.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/predefined_ops.h.4A8594C536F6C091.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/process.h.548655B1B24C8632.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pstl_config.h.618EC91951039E1E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread.h.6E22B1265CAC4982.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_compat.h.D4DFA7CAFDC214F1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_signal.h.BA858CD111F13891.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_time.h.1582937A482E3241.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_unistd.h.99BBA73226EB5CA4.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ptr_traits.h.DD6BE8AE72BE105A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qalgorithms.h.A16B802AEFFF62F8.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qanystringview.h.17EA8C2F05F19AAE.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydata.h.465D42052275B07F.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydataops.h.8BDCDBE04881FDBC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydatapointer.h.1E4FCC55F4F061AF.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomic.h.8B3165026B45B0DC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomic_cxx11.h.5210179F6E61161D.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbasicatomic.h.24208047340650CA.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbindingstorage.h.072978A15460C840.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearray.h.0E6A97306BDAA4F9.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearrayalgorithms.h.325D1E162F774BF9.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearraylist.h.0584B7357D9176B3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearrayview.h.80C8A86B54E5FF5A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qchar.h.C694A884452A8C11.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcompare.h.30958228B59D4831.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcompare_impl.h.F16D1127723B8295.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcompilerdetection.h.60DE70ACC29713CB.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qconfig.h.D79E7002758F09CB.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcontainerfwd.h.57B244A19F03D3B7.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcontainerinfo.h.AB45ADDA14BFA767.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcontainertools_impl.h.D16CF9E47FFC8F0A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcontiguouscache.h.498FD5F2686B4A9B.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcoreapplication.h.8D3CF1B3375FC773.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcoreapplication_platform.h.BF933ACF5582EFD9.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcoreevent.h.0A74B17C7ECE78CF.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdatastream.h.33D03E40C3B5B39A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdebug.h.21D7CE96C4C406C0.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qeventloop.h.5FA8C8BD95150924.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qflags.h.7CF00434DF04B9AC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qgenericatomic.h.292B1101B66FA99C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qglobal.h.43FE604F1E0B4BE6.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qglobalstatic.h.0A778D84F4F713D2.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhash.h.AB76D5DD23E417B6.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhashfunctions.h.0FA0B975201EFFDC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qiodevicebase.h.FFF6810F8358F0DB.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qiterable.h.23E58F9C54AB40AB.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qiterator.h.C9D0A3AB60640999.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlist.h.B92ED73E43C817A4.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlogging.h.4D8EA46E2B017EF8.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmap.h.9FA91B359FF48412.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmath.h.59EABF0048AA7877.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmetacontainer.h.BD36FD8F344F0B9B.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmetatype.h.1DFF74FDD673D066.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnamespace.h.74B274B6F2040EA1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnativeinterface.h.99E113DB24B3FEBC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnumeric.h.45A238CF39F3E556.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobject.h.E273ABEB4AEA3AA3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobject_impl.h.7D7A91F8FB3386E3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobjectdefs.h.3F1654EE25D7C27E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobjectdefs.h.52552309B4975986.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobjectdefs_impl.h.9F58A31A99446B39.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpair.h.639D3EE06D1B2DD4.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qprocessordetection.h.CF0B74F9775E965F.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrefcount.h.EEE882B190FA6C72.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qscopedpointer.h.DF98EA7189BE370F.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qscopeguard.h.8215AA286D10B784.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qset.h.46F8CE87C9FFD298.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qshareddata.h.8B9F04AF9F20F4F7.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qshareddata_impl.h.42B5552C12141DE1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsharedpointer.h.EF9028C905942B74.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsharedpointer_impl.h.DE64262CA9C7B4FF.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstring.h.AD5F6BEC7C238C2A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringalgorithms.h.29C02976081F051E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringconverter.h.2D34F3E1CB6BCED3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringlist.h.275D35232E7A7926.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringliteral.h.2FEDF495FAFFDC05.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringmatcher.h.F36C422B8A4B3879.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringtokenizer.h.F486CE84FC6ACAB6.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringview.h.1A6975C8316A8963.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsysinfo.h.8399B84C27DAF480.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsystemdetection.h.11D1A63B7C6EBD48.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtaggedpointer.h.F30CE52C39F604C4.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtcore-config.h.E4B91A87B0DFAAD1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtcoreexports.h.9B6FE433BDFA320A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextstream.h.793DE2281927CC4C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtmetamacros.h.28FBF3655E5167F2.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtypeinfo.h.F39E2B5F522BCE7A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qutf8stringview.h.D2F0CF96BB1FFBC1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvarlengtharray.h.71E97BAD9E9D72F9.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qversiontagging.h.60184FA2CD1E64DC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/range_access.h.DBA0DC31F8FAB6D9.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ratio.B3DEDD7141BA261D.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/refwrap.h.59F884F6F3D2F5DF.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/riemann_zeta.tcc.A6DCDC4ED6F840C6.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/shared_ptr.h.68992A1576396FB9.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/shared_ptr_atomic.h.8E21CDEAB2CB0092.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/shared_ptr_base.h.8B9E1B90955C5A83.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/signal.h.A33F8F7F5B7492C2.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/specfun.h.504AD9D0B2270980.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/special_function_util.h.080B76279391F171.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/std_abs.h.A8E681575AB26214.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/std_function.h.73AD2529EE7BFDF6.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdarg.h.69E5E2CD38363444.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stddef.h.95E2BEE9CA317902.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdexcept.17627E2DA674B96A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdint.h.1F946C5C715873EE.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdint.h.BB9FFF6861E834B4.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdio.h.38586BCA99051192.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdio_s.h.8061CBF28DF89A2C.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdlib.h.8D1B849F925680B2.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdlib.h.D92D616567CD7C26.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdlib_s.h.7339488D62437CC2.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_algo.h.5FCBF7AD2C39CA69.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_algobase.h.1FC215A54552113D.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_bvector.h.6D71D49D9B7DFC37.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_construct.h.2115DED7B6B48E12.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_function.h.7AA784877DC3C96E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_heap.h.F16E2E2BA134A775.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_iterator.h.02F4896DC76FA048.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_iterator_base_funcs.h.A6795C2EA8A9B6EC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_iterator_base_types.h.0AC872A679C614BD.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_list.h.4F732471E14F1E13.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_map.h.169186F18F6403BE.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_multimap.h.6CEB5291DF5FE3CA.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_numeric.h.9CBFE6ED9B867060.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_pair.h.70C5E29C32591536.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_raw_storage_iter.h.4FD711A69F43C097.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_relops.h.2EB7BAF40896FA63.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_tempbuf.h.72F780832F9AEC43.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_tree.h.6DA6C35CACB0A85E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_uninitialized.h.FD9EBBB08537D2BA.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_vector.h.6760409A3CC06C3D.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stream_iterator.h.04A38524C2347C98.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/streambuf.76776BBBF64C19DC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/streambuf.tcc.F65DE088D3155712.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/streambuf_iterator.h.7A741CDD50DD371B.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string.0FAB06F7A6B7FE94.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string.h.DD656C88A98DFFA0.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string_conversions.h.366B11A8540BE20D.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string_s.h.3F6D0AA44CAA2977.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string_view.163187C18809B48B.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string_view.tcc.F58C450763973E11.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stringfwd.h.D6779A547A10EB5E.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/swprintf.inl.FD7DE59279BE564F.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/system_error.63DF5F530AD2B8F8.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/time.h.A1743B2410D17FC3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/timeb.h.3BD0B6AE3923456D.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/timeb_s.h.304E7F8020D14FB1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/tuple.2FC5ACF5359CC6D4.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/type_traits.EF1DD7E3AB38D0D3.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/type_traits.h.9451E829FD38CE9F.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/typeinfo.FED1A1799E7A2CA6.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/types.h.53DDDF7F7C6025B6.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/uniform_int_dist.h.C93710E20161FAEC.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/unique_ptr.h.1E0FA4B852FA8CF1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/unordered_map.C6090430DAC9DB4A.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/unordered_map.h.11671F6AA00D664F.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/uses_allocator.h.773760631A23EFDD.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/utility.66741444D7C6F204.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/vadefs.h.3324188A24E8CA50.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/vadefs.h.64CC1240B69E39D1.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/variant.D45F3D6257C9556D.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/vector.1D2414C733323237.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/vector.tcc.0244E487C66A7E45.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/wchar.h.8A9B623EE88F2D70.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/wchar_s.h.B3CDC53001A7B5AA.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/C++_Code/build-VideoProcessing-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Tutorial/Integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Tutorial/canny_edge_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/face_localisation_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/face-localisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/face-localisation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/corner-detection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/face-localisation-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/face-localisation-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/face_localisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/face_localisation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +319,9 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -29,11 +329,16 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2TO9nZvSaGE4JwRkDPWhs4uBCjF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,19 +347,121 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/EPR 402/Project/epr-project&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/user/Documents/EPR 402/Project/epr-project/Code/Tutorial/Integration.py",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="blink-detection" />
     </force-push-targets>
+  </component>
+  <component name="RunManager" selected="Python.face_localisation_video (1)">
+    <configuration name="Integration" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="epr-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\user\Documents\EPR 402\Project\epr-project" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Tutorial/Integration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="face_localisation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="epr-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/face_localisation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="face_localisation_video (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="epr-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/face_localisation_video.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="face_localisation_video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="epr-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\user\Documents\EPR 402\Project\epr-project\Code\face_localisation_video.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Integration" />
+      <item itemvalue="Python.face_localisation" />
+      <item itemvalue="Python.face_localisation_video" />
+      <item itemvalue="Python.face_localisation_video (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.face_localisation_video (1)" />
+        <item itemvalue="Python.face_localisation" />
+        <item itemvalue="Python.face_localisation_video" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,6 +490,26 @@
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -100,26 +527,6 @@
                 </map>
               </option>
             </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/main" />
-                </option>
-              </RecentGroup>
-            </list>
           </value>
         </entry>
       </map>
